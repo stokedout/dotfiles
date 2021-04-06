@@ -35,7 +35,6 @@ plugins=(
 	git 
 	jump 
 	zsh-completions
-	zsh-autosuggestions
 	yarn
 	jsontools
 	docker
@@ -53,6 +52,12 @@ export GOPATH=$HOME/Go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+#Java
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk@11/include"
+export JAVA_HOME=/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
