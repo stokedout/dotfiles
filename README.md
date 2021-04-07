@@ -1,7 +1,10 @@
-dotfiles
+Diogo's dotfiles
 ========
 
-### My environemnt
+### Installation
+
+Warning: If you want to try out these dotfiles I suggest you to review the code and edit the configurations before you use it.
+
 
 #### Setup environment
 ```
