@@ -1,9 +1,9 @@
 dotfiles
 ========
 
-###My environemnt
+### My environemnt
 
-####Setup environment
+#### Setup environment
 ```
 make brew.install
 ```
@@ -22,18 +22,18 @@ make brew.dump
 
 
 
-####iTerm2 install
+#### iTerm2 install
 ```
 make iterm2.install
 ```
 
-####zshel install/uninstall
+#### zshel install/uninstall
 ```
 make zshell.install
 make zshell.uninstall
 ```
 
-####Git
+#### Git
 Configure git
 ```
 make git.config
