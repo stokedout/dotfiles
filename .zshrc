@@ -48,10 +48,9 @@ fpath=($ZSH/custom/plugins/zsh-completions/src $fpath)
 source $ZSH/oh-my-zsh.sh
 
 # Go
-export GOPATH=$HOME/Go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 #Java
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
